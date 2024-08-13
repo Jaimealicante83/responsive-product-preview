@@ -1,0 +1,153 @@
+$white: #fff;
+$cream: #F2EAE2;
+$aurometal: #6C7289;
+$aquamarina: #3D8168;
+$aquamarina-hover: #1A4032;
+$gunmetal: #1C232B;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p,span{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: $cream;
+
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+   
+        .card{
+            max-width: 34.3rem;
+            background-color: $white;
+            border-radius: .8rem;
+            @media screen and (min-width: 1024px){
+                display: flex;
+                flex-direction: row;
+                max-width: 60rem;
+                height: auto;
+            }
+            .imagen{
+                width: 100%;
+                height: 24rem;
+                background-image: url('/images/image-product-mobile.jpg');
+                background-size: cover;
+                border-top-left-radius: .8rem;
+                border-top-right-radius: .8rem;
+                @media screen and (min-width: 1024px){
+                    height: auto;
+                    background-image: url('/images/image-product-desktop.jpg');
+                    border-bottom-left-radius: .8rem;
+                    border-top-right-radius: 0;
+                    width: 50%;
+                }
+            }
+            .text-wrapper{
+                padding: 2.4rem;
+                @media screen and (min-width: 1024px){
+                    width: 50%;
+                    padding: 3.2rem;
+                }
+                .perfume{
+                    display: block;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 1.2rem;
+                    font-weight: 500;
+                    letter-spacing: .5rem;
+                    text-transform: uppercase;
+                    margin-bottom: 1.9rem;
+                    color: $aurometal;
+                    @media screen and (min-width: 1024px){
+                        margin-bottom: 2.8rem;
+                    }
+                }
+                h1{
+                    font-family: 'Fraunces', serif;
+                    font-size: 3.2rem;
+                    line-height: 3.2rem;
+                    font-weight: bold;
+                    margin-bottom: 2.6rem;
+                    color: $gunmetal;
+                    @media screen and (min-width: 1024px){
+                        margin-bottom: 3.5rem;
+                    }
+                }
+                p{
+                    font-family: 'Montserrat', serif;
+                    font-size: 1.4rem;
+                    line-height: 2.3rem;
+                    font-weight: medium;
+                    margin-bottom: 3.5rem;
+                    color: $gunmetal;
+                    @media screen and (min-width: 1024px){
+                        margin-bottom: 3.7rem;
+                    }
+                }
+                .price-container{
+                    display: flex;
+                    align-items: center;
+                    gap: 2rem;
+                    margin-bottom: 2.4rem;
+                    @media screen and (min-width: 1024px){
+                        margin-bottom: 3.4rem;
+                    }
+                    .present-price{
+                        font-family: 'Fraunces', serif;
+                        font-size: 3.2rem;
+                        line-height: 3.2rem;
+                        font-weight: bold;
+                        color: $aquamarina;
+                    }
+                    .previous-price{
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 1.3rem;
+                        line-height: 2.3rem;
+                        font-weight: medium;
+                        color: $aurometal;
+                        text-decoration: line-through;
+                    }
+                }
+            }
+        }
+        .green-button{
+            background-color: $aquamarina;
+            border: none;
+            border-radius: .8rem;
+            color: $white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.4rem;
+            font-weight: bold;
+            padding: 1.9rem;
+            width: 100%;
+            cursor: pointer;
+            transition: all .3s ease-in-out;
+            &:hover{
+                background-color: $aquamarina-hover;
+            }
+            img {
+                margin-right: 1rem;
+                width: 2rem;
+                height: 2rem;
+            }
+        }
+    }
+}
+
