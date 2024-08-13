@@ -119,7 +119,7 @@ body main .card .text-wrapper p {
 }
 @media screen and (min-width: 1024px) {
   body main .card .text-wrapper p {
-    margin-bottom: 3rem;
+    margin-bottom: 3.3rem;
   }
 }
 body main .card .text-wrapper .price-container {
@@ -130,7 +130,7 @@ body main .card .text-wrapper .price-container {
 }
 @media screen and (min-width: 1024px) {
   body main .card .text-wrapper .price-container {
-    margin-bottom: 2.6rem;
+    margin-bottom: 2.8rem;
   }
 }
 body main .card .text-wrapper .price-container .present-price {
