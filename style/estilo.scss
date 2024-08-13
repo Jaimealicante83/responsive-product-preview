@@ -48,6 +48,7 @@ body{
                 background-size: cover;
                 border-top-left-radius: .8rem;
                 border-top-right-radius: .8rem;
+                position: relative;
                 @media screen and (min-width: 1024px){
                     height: auto;
                     background-image: url('/images/image-product-desktop.jpg');

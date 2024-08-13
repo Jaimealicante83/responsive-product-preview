@@ -44,6 +44,7 @@ body main .card .imagen {
   background-size: cover;
   border-top-left-radius: 0.8rem;
   border-top-right-radius: 0.8rem;
+  position: relative;
 }
 @media screen and (min-width: 1024px) {
   body main .card .imagen {
