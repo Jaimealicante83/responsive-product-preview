@@ -34,7 +34,7 @@ body main .card {
     display: flex;
     flex-direction: row;
     max-width: 60rem;
-    height: auto;
+    height: 45rem;
   }
 }
 body main .card .imagen {
@@ -75,7 +75,7 @@ body main .card .text-wrapper .perfume {
 }
 @media screen and (min-width: 1024px) {
   body main .card .text-wrapper .perfume {
-    margin-bottom: 2.8rem;
+    margin-bottom: 2rem;
   }
 }
 body main .card .text-wrapper h1 {
@@ -88,7 +88,7 @@ body main .card .text-wrapper h1 {
 }
 @media screen and (min-width: 1024px) {
   body main .card .text-wrapper h1 {
-    margin-bottom: 3.5rem;
+    margin-bottom: 2rem;
   }
 }
 body main .card .text-wrapper p {
@@ -101,7 +101,7 @@ body main .card .text-wrapper p {
 }
 @media screen and (min-width: 1024px) {
   body main .card .text-wrapper p {
-    margin-bottom: 3.7rem;
+    margin-bottom: 3rem;
   }
 }
 body main .card .text-wrapper .price-container {
@@ -112,7 +112,7 @@ body main .card .text-wrapper .price-container {
 }
 @media screen and (min-width: 1024px) {
   body main .card .text-wrapper .price-container {
-    margin-bottom: 3.4rem;
+    margin-bottom: 2.6rem;
   }
 }
 body main .card .text-wrapper .price-container .present-price {

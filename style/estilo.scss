@@ -39,7 +39,7 @@ body{
                 display: flex;
                 flex-direction: row;
                 max-width: 60rem;
-                height: auto;
+                height: 45rem;
             }
             .imagen{
                 width: 100%;
@@ -72,7 +72,7 @@ body{
                     margin-bottom: 1.9rem;
                     color: $aurometal;
                     @media screen and (min-width: 1024px){
-                        margin-bottom: 2.8rem;
+                        margin-bottom: 2rem;
                     }
                 }
                 h1{
@@ -83,7 +83,7 @@ body{
                     margin-bottom: 2.6rem;
                     color: $gunmetal;
                     @media screen and (min-width: 1024px){
-                        margin-bottom: 3.5rem;
+                        margin-bottom: 2rem;
                     }
                 }
                 p{
@@ -94,7 +94,7 @@ body{
                     margin-bottom: 3.5rem;
                     color: $gunmetal;
                     @media screen and (min-width: 1024px){
-                        margin-bottom: 3.7rem;
+                        margin-bottom: 3rem;
                     }
                 }
                 .price-container{
@@ -103,7 +103,7 @@ body{
                     gap: 2rem;
                     margin-bottom: 2.4rem;
                     @media screen and (min-width: 1024px){
-                        margin-bottom: 3.4rem;
+                        margin-bottom: 2.6rem;
                     }
                     .present-price{
                         font-family: 'Fraunces', serif;
